@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/Task2/Subtask1/bin/Debug/net6.0/Subtask1.dll",
+            "program": "${workspaceFolder}/Task2/Subtask2/bin/Debug/net6.0/Subtask2.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/Task2/Subtask1",
+            "cwd": "${workspaceFolder}/Task2/Subtask2",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "externalTerminal",
             "stopAtEntry": false
@@ -20,7 +20,9 @@
         {
             "name": ".NET Core Attach",
             "type": "coreclr",
-            "request": "attach"
+            "request": "attach",
+            
+            "smth": "NoDifference"
         }
     ]
 }
